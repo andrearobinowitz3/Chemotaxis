@@ -69,7 +69,7 @@ void draw()
      { // if no uneaten bones, then start the simulation over
        setup();
      }
-    text("See How Many Bones Each Bone Can Find! A Blue line, means the Dog has smelled a bone and is looking for it. Bones Left: "+bonesLeft,50,12);
+    text("Bones Left: "+bonesLeft,50,12);
 }
 
 // CLASS DEFINITIONS
